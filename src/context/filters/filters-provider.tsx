@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 import { FiltersContext } from "./filters-context";
-import type { Filters } from "./types";
+import type { Filters } from "../../types";
 
 export const FiltersProvider = ({
   children,

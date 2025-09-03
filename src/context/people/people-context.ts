@@ -1,8 +1,10 @@
 import { createContext } from "react";
-import type { People } from "./types";
+import type { People } from "../../types";
 
-export const PeopleContext = createContext<{
+type PeopleContextType = {
   people: People[];
-}>({
+};
+
+export const PeopleContext = createContext<PeopleContextType>({
   people: [],
 });

@@ -3,7 +3,7 @@ import { useCallback, useContext } from "react";
 import { applyFilters } from "../../utils/applyFilters";
 import { FiltersContext } from "../filters/filters-context";
 import { PeopleContext } from "./people-context";
-import type { People } from "./types";
+import type { People } from "../../types";
 
 export const PeopleProvider = ({ children }: { children: React.ReactNode }) => {
   const { data } = useQuery<People[]>({

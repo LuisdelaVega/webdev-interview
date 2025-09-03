@@ -12,14 +12,16 @@
  * - The people that live in the North have a settlementId and a houseId.
  * - The people that live in the Crownlands have a seatId and a familyId.
  */
-import type { Filters } from "../context/filters/types";
-import type { People } from "../context/people/types";
+import type { Filters, People } from "../types";
 
 export function applyFilters(
   people: People[],
   selectedFilters: Filters,
   allFilters: Filters
 ) {
+  console.log("Selected Filters:", selectedFilters);
+  console.log("All Filters:", allFilters);
+
   return people?.filter((person) => {
     return true;
   });

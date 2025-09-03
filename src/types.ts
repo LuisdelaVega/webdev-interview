@@ -1,4 +1,11 @@
-import type { Dispatch, SetStateAction } from "react";
+export type People = {
+  id: number;
+  name: string;
+  settlementId: number;
+  houseId: number;
+  seatId: number;
+  familyId: number;
+};
 
 export type Region = {
   id: number;
@@ -23,10 +30,4 @@ export type Filters = {
   regions: Region[];
   settlements_seats: SettlementsSeats[];
   houses_families: HousesFamilies[];
-};
-
-export type FiltersContextType = {
-  allFilters: Filters;
-  selectedFilters: Filters;
-  setSelectedFilters: Dispatch<SetStateAction<Filters>>;
 };

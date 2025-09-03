@@ -1,5 +1,12 @@
+import type { Dispatch, SetStateAction } from "react";
 import { createContext } from "react";
-import type { FiltersContextType } from "./types";
+import type { Filters } from "../../types";
+
+type FiltersContextType = {
+  allFilters: Filters;
+  selectedFilters: Filters;
+  setSelectedFilters: Dispatch<SetStateAction<Filters>>;
+};
 
 export const FiltersContext = createContext<FiltersContextType>({
   allFilters: {
