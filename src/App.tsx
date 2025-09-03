@@ -15,7 +15,7 @@ function App() {
   const { people } = useContext(PeopleContext);
 
   return (
-    <Container strategy="grid" p="md">
+    <Container p="md" fluid>
       <Title order={2} pb="sm">
         The People of Westeros
       </Title>

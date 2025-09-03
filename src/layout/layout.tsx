@@ -15,15 +15,17 @@ import type {
   Region,
   SettlementsSeats,
 } from "../context/filters/types";
+import classes from "./layout.module.css";
+
 
 function FilterStack({ children }: { children: React.ReactNode }) {
   return (
     <Stack
       align="flex-start"
       w="100%"
-      bd="1px solid rgba(0, 0, 0, 0.1)"
       bdrs="md"
       p="xs"
+      className={classes["filter-stack"]}
     >
       {children}
     </Stack>
