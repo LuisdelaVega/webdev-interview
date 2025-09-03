@@ -1,0 +1,236 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Eddard Stark",
+      "settlementId": 1,
+      "houseId": 1,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 2,
+      "name": "Catelyn Stark",
+      "settlementId": 1,
+      "houseId": 1,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 3,
+      "name": "Jon Snow",
+      "settlementId": 1,
+      "houseId": 1,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 4,
+      "name": "Arya Stark",
+      "settlementId": 1,
+      "houseId": 1,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 5,
+      "name": "Rodrik Cassel",
+      "settlementId": 1,
+      "houseId": 2,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 6,
+      "name": "Beth Cassel",
+      "settlementId": 1,
+      "houseId": 2,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 7,
+      "name": "Roose Bolton",
+      "settlementId": 2,
+      "houseId": 3,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 8,
+      "name": "Domeric Bolton",
+      "settlementId": 2,
+      "houseId": 3,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 9,
+      "name": "Ramsay Snow",
+      "settlementId": 2,
+      "houseId": 3,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 10,
+      "name": "Jeor Mormont",
+      "settlementId": 3,
+      "houseId": 4,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 11,
+      "name": "Jorah Mormont",
+      "settlementId": 3,
+      "houseId": 4,
+      "seatId": null,
+      "familyId": null
+    },
+    {
+      "id": 12,
+      "name": "Aegon I Targaryen",
+      "settlementId": null,
+      "houseId": null,
+      "seatId": 1,
+      "familyId": 7
+    },
+    {
+      "id": 13,
+      "name": "Aerion Targaryen",
+      "settlementId": null,
+      "houseId": null,
+      "seatId": 1,
+      "familyId": 7
+    },
+    {
+      "id": 14,
+      "name": "Valaena Velaryon",
+      "settlementId": null,
+      "houseId": null,
+      "seatId": 1,
+      "familyId": 8
+    },
+    {
+      "id": 15,
+      "name": "Corlys Velaryon",
+      "settlementId": null,
+      "houseId": null,
+      "seatId": 2,
+      "familyId": 8
+    },
+    {
+      "id": 16,
+      "name": "Rhaenys Targaryen",
+      "settlementId": null,
+      "houseId": null,
+      "seatId": 2,
+      "familyId": 7
+    },
+    {
+      "id": 17,
+      "name": "Laena Velaryon",
+      "settlementId": null,
+      "houseId": null,
+      "seatId": 2,
+      "familyId": 8
+    },
+    {
+      "id": 18,
+      "name": "Laenor Velaryon",
+      "settlementId": null,
+      "houseId": null,
+      "seatId": 2,
+      "familyId": 8
+    }
+  ],
+  "filters": {
+    "regions": [
+      {
+        "id": 1,
+        "name": "North"
+      },
+      {
+        "id": 2,
+        "name": "Crownlands"
+      }
+    ],
+    "settlements_seats": [
+      {
+        "id": 1,
+        "name": "Winterfell",
+        "regionName": "North",
+        "seatId": null
+      },
+      {
+        "id": 2,
+        "name": "The Dreadfort",
+        "regionName": "North",
+        "seatId": null
+      },
+      {
+        "id": 3,
+        "name": "Bear Island",
+        "regionName": "North",
+        "seatId": null
+      },
+      {
+        "id": 4,
+        "name": "Dragonstone",
+        "regionName": "Crownlands",
+        "seatId": 1
+      },
+      {
+        "id": 5,
+        "name": "Driftmark",
+        "regionName": "Crownlands",
+        "seatId": 2
+      }
+    ],
+    "houses_families": [
+      {
+        "id": 1,
+        "name": "House Stark",
+        "regionName": "North",
+        "settlementId": 1
+      },
+      {
+        "id": 2,
+        "name": "House Cassel",
+        "regionName": "North",
+        "settlementId": 1
+      },
+      {
+        "id": 3,
+        "name": "House Bolton",
+        "regionName": "North",
+        "settlementId": 2
+      },
+      {
+        "id": 4,
+        "name": "House Mormont",
+        "regionName": "North",
+        "settlementId": 3
+      },
+      {
+        "id": 5,
+        "name": "House Woodfoot",
+        "regionName": "North",
+        "settlementId": 3
+      },
+      {
+        "id": 7,
+        "name": "House Targaryen",
+        "regionName": "Crownlands",
+        "settlementId": 4
+      },
+      {
+        "id": 8,
+        "name": "House Velaryon",
+        "regionName": "Crownlands",
+        "settlementId": 5
+      }
+    ]
+  }
+}

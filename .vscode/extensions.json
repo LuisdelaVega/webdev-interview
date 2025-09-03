@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "clinyong.vscode-css-modules",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "ms-vsliveshare.vsliveshare",
+    "vunguyentuan.vscode-postcss",
+    "esbenp.prettier-vscode",
+    "gruntfuggly.todo-tree",
+    "pflannery.vscode-versionlens",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
