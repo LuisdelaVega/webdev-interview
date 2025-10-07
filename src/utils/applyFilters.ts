@@ -22,7 +22,7 @@ export function applyFilters(
   console.log("Selected Filters:", selectedFilters);
   console.log("All Filters:", allFilters);
 
-  return people?.filter((person) => {
+  return people?.filter(() => {
     return true;
   });
 }

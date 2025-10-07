@@ -19,6 +19,7 @@ function App() {
       <Title order={2} pb="sm">
         The People of Westeros
       </Title>
+      
       {people.length > 0 && (
         <List type="ordered">
           {people?.map((person: People) => (

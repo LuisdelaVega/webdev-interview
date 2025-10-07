@@ -14,7 +14,7 @@ import type {
   HousesFamilies,
   Region,
   SettlementsSeats,
-} from "../context/filters/types";
+} from "../types";
 import classes from "./layout.module.css";
 
 
